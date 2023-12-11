@@ -3,7 +3,7 @@ function buttonClick(){
 	two.value = two.value.replace(/\s+/g, "");
 	
 
-	if (one.value == "voidface(intx,int y)"){
+	if (one.value == "voidface(intx,inty)"){
 		text1.innerHTML = "正解";
 	}else{
 		text1.innerHTML = "不正解　解答：void face(int x, int y)";
